@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.idea/
+.vscode/
+.tools/
+.DS_Store
+
+# Kaynak gorseller ve uretilen veri setleri buyuk olabilir ve lisanslari farkli olabilir.
+data/backgrounds/*
+data/mannequins/*
+output/
+dataset/
+
+# Bos klasor yapisini depoda tut.
+!data/backgrounds/.gitkeep
+!data/mannequins/.gitkeep
